@@ -1,0 +1,13 @@
+-Bucle For > For es un bucle, es decir, todo coidog que este dentro de sus llaves {} sera repetido x numero de veces.El numero de veces que este codigo sera repetido esta definido por
+la condicion escrita entre parentesis (), mientras esta condicion se cumpla el bucle continuara repitiendose.Por ejemplo for(let f=1;f>0;f++){} este bucle se repetira por siempre
+porque en cada repeticion del bucle f ira incrementando su valor pero siempre seguira siendo mayor a 0 por lo que la condicion de que f sea mayor a 0 seguira siendo verdadera.
+
+-Operador && > El operador && basicamente significa Y.Se utiliza para verificar que varias condiciones se cumplan al mismo tiempo.Por ejemplo 0>1 y ademas 0<5 se traduce a
+0>1 && 0<5.
+
+-Operador || > El operador || basicamente significa O.Se utiliza para verificar que al menos una condicion del conjunto se este cumpliendo.Por ejemplo 0 es mayor a 1 o sino 0
+es igual a 0 se traduce a 0>1 || 0==0.
+
+-Operador ! >  El operador ! significa CONTRARIO y invierta la logica, es decir un si se convierte en un no y visceversa !true es igual a false, !true se convierte en false Y 
+!= se convierte en diferente.
+
