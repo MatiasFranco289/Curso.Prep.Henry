@@ -1,0 +1,40 @@
+Objetos
+
+Los objetos son similares a los arrays, pero mientras que un array puede contener multiples datos del mismo tipo, un objeto contiene multiples datos sobre solo una cosa.
+Por ejemplo el objeto mesa, podria contener informacion sobre su numero de patas, su tamaño, tipo de madera, color, etc.
+
+Propiedades
+
+Las propiedades son basicamente el nombre que tienen las variables cuando se encuentran dentro de un objeto.
+Fuera de un objeto -> let colorMadera="Marron";
+Dentro de un objeto -> colorMadera:"Marron",
+
+Metodos
+
+Los metodos son el nombre que tienen las funciones cuando se encuentran dentro de un objeto, son normalmente guardadas en una propiedad.Ej:
+
+funcionEj: function(){ <<Funcion
+    ^Propiedad
+
+    DoSomething..
+}
+
+Bucle For In
+
+Es lo mismo que el bucle for normal pero debido a que en los objetos las propiedades no encuentran enumeradas por un index como en los arrays, no se puede utilizar un bucle for
+normal asi que se usa el for in.Ej:
+
+for(let key in randomObject) > Esto iterara el objeto RandomObject guardando en cada iteracion el nombre de la propiedad actual en "key".
+
+Notacion de puntos vs Notacion de corchetes
+
+Si tenemos un objeto digamos "RandomObject" y este tiene una propiedad llamada "Color" podemos acceder al valor de la misma de dos formas distintas.
+
+RandomObject.Color > Notacion de puntos
+RandomObject['Color'] > Notacion de corchetes
+
+La notacion de puntos es mas facil para acceder al valor de una propiedad pero la notacion de corchetes nos permite tambien acceder al valor de una propiedad cuyo nombre
+se encuentra guardado en una variables:
+
+let nombrePropiedad="Color";
+return RandomObject[nombrePropiedad] > Esto es igual a decir > RandomObject['Color'] o RandomObject.Color.
