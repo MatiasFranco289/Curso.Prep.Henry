@@ -1,0 +1,9 @@
+Prototype
+
+Cada clase tiene una propiedad Prototype, esta tiene acceso a la palabra 'this' y apunta siempre al objeto desde donde se lo esta llamando.
+Prototype nos permite añadir metodos a una clase que luego seran accesibles por todos los objetos de dicha clase.
+
+_Constructors_
+
+Los constructors o clases permiten crear objetos de ese tipo.En lugar de tener que crear multiples objetos repitiendo codigo podemos crear una plantilla base con caracteristicas
+que compartiran todos esos objetos.
