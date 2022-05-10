@@ -1,0 +1,3 @@
+Callbacks
+
+Las funciones de tipo callbacks son funciones que reciben como parametro otra funcion para ser llamada por esta.
